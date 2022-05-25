@@ -3,13 +3,13 @@
 const mysql = require("mysql2");
 
 // Connection = קו תקשורת למסד הנתונים
-const connection = mysql.createConnection({
-    host: "localhost", // Computer
-    user: "root", // Username
-    password: "1234", // Password
-    database: "hara", // Database name
-    // multipleStatements: true
-});
+// const connection = mysql.createConnection({
+//     host: "localhost", // Computer
+//     user: "root", // Username
+//     password: "1234", // Password
+//     database: "hara", // Database name
+//     // multipleStatements: true
+// });
 
 // Connect to the database: 
 // connection.connect(err => {
