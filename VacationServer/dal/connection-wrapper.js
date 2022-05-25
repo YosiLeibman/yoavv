@@ -12,13 +12,13 @@ const connection = mysql.createConnection({
 });
 
 // Connect to the database: 
-connection.connect(err => {
-    if (err) {
-        console.log("Failed to create connection + " + err);
-        return;
-    }
-    console.log("We're connected to MySQL");
-});
+// connection.connect(err => {
+//     if (err) {
+//         console.log("Failed to create connection + " + err);
+//         return;
+//     }
+//     console.log("We're connected to MySQL");
+// });
 
 
 // One function for executing select / insert / update / delete: 
