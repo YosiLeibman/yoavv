@@ -13,4 +13,4 @@ server.use('/vacations', vacationController);
 server.use('/users', usersController);
 server.get('/', (req,res)=>res.sendFile(__dirname+'/build/index.html'));
 
-server.listen(3001, () => console.log('Listening on http://localhost:3001'));
+server.listen(80, () => console.log('Listening on http://localhost:3001'));
